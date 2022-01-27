@@ -431,16 +431,26 @@
             </li>
           </ul>
         </div>
-        <div class="sub">
-          <p class="header-footer">Подпишитесь на рассылку</p>
-          <input type="mail" placeholder="E-mail" />
-          <button type="submit">
-            Подписаться
-            <svg width="24px" height="24px">
-              <use href="./images/icons.svg#icon-send"></use>
-            </svg>
-          </button>
-        </div>
+        <form action="#" class="form-subscription">
+          <label class="header-footer" for="subscription"
+            >Подпишитесь на рассылку</label
+          >
+          <div class="sub">
+            <input
+              class="input-emeil"
+              type="mail"
+              name="sub"
+              id="subscription"
+              placeholder="E-mail"
+            />
+            <button class="sub-button" type="submit">
+              <span class="sub-button-text">Подписаться</span>
+              <svg class="icon-send" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <div data-modal class="backdrop is-hidden">
