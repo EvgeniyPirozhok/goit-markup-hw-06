@@ -460,6 +460,80 @@
             <use href="./images/icons.svg#icon-vector"></use>
           </svg>
         </button>
+        <form action="#">
+          <b>Оставьте свои данные, мы вам перезвоним</b>
+          <div class="form-input">
+            <label for="name"> Имя </label>
+            <input
+              class="modal-input"
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder=" "
+            />
+            <span class="svg-modal">
+              <svg width="18px" height="18px">
+                <use href="images/icons.svg#icon-name"></use>
+              </svg>
+            </span>
+          </div>
+
+          <div class="form-input">
+            <label for="tel"> Телефон </label>
+            <input
+              class="modal-input"
+              type="tel"
+              name="tel"
+              id="tel"
+              required
+              placeholder=" "
+            />
+            <span class="svg-modal">
+              <svg width="18px" height="18px">
+                <use href="images/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="form-input">
+            <label for="emeil"> Почта </label>
+            <input
+              class="modal-input"
+              type="emeil"
+              name="emeil"
+              id="emeil"
+              required
+              placeholder=" "
+            />
+            <span class="svg-modal">
+              <svg width="18px" height="18px">
+                <use href="images/icons.svg#icon-emeil-modal"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="form-input">
+            <label for="comment"> Комментарий </label>
+            <textarea
+              class="textarea-input"
+              name="comment"
+              id="comment"
+              rows="5"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <label class="check form">
+            <input
+              class="check-input form hidden-check"
+              type="checkbox"
+              name="agreement"
+            />
+            <svg class="check-box" width="16px" height="15px">
+              <use href="images/icons.svg#icon-checkok"></use>
+            </svg>
+            Соглашаюсь с рассылкой и принимаю
+            <a class="terms-agreement" href="#">Условия договора</a>
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
