@@ -461,7 +461,7 @@
           </svg>
         </button>
         <form action="#">
-          <b>Оставьте свои данные, мы вам перезвоним</b>
+          <p class="form-p">Оставьте свои данные, мы вам перезвоним</p>
           <div class="form-input">
             <label for="name"> Имя </label>
             <input
@@ -521,18 +521,21 @@
               placeholder="Введите текст"
             ></textarea>
           </div>
-          <label class="check form">
+          <label class="check">
             <input
-              class="check-input form hidden-check"
+              class="check-input hidden-check"
               type="checkbox"
               name="agreement"
             />
-            <svg class="check-box" width="16px" height="15px">
-              <use href="images/icons.svg#icon-checkok"></use>
-            </svg>
-            Соглашаюсь с рассылкой и принимаю
-            <a class="terms-agreement" href="#">Условия договора</a>
+            <span class="check-box">
+              <svg width="11px" height="8">
+                <use href="images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            Соглашаюсь с рассылкой и принимаю &nbsp
+            <a class="terms-agreement" href="#"> Условия договора</a>
           </label>
+          <button class="form-button" type="submit">Отправить</button>
         </form>
       </div>
     </div>
